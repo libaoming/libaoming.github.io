@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>李宝明 · 简历 · DeepSeek Harness</title>
+<style>
+  :root{
+    --bg:#faf9f5; --ink:#141413; --muted:#6b6862; --line:#e4e0d6; --clay:#c96442; --clay-soft:#f3e3da;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  body{background:#eceae3; color:var(--ink);
+    font-family:-apple-system,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased; padding:32px 0;}
+  .page{max-width:820px; margin:0 auto; background:var(--bg); padding:54px 56px;
+    box-shadow:0 2px 24px rgba(0,0,0,.08);}
+  .serif{font-family:Georgia,"Songti SC",serif;}
+
+  header{border-bottom:2px solid var(--ink); padding-bottom:18px; margin-bottom:8px;}
+  h1{font-family:Georgia,"Songti SC",serif; font-size:33px; font-weight:600; letter-spacing:.02em;}
+  .role{color:var(--clay); font-weight:600; font-size:15px; margin-top:4px;}
+  .contact{color:var(--muted); font-size:13.5px; margin-top:8px;}
+  .target{display:inline-block; margin-top:12px; padding:4px 12px; background:var(--clay-soft);
+    color:#7a3d28; border-radius:999px; font-size:12.5px; font-style:italic; font-family:Georgia,serif;}
+
+  h2{font-family:Georgia,"Songti SC",serif; font-size:16px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--clay); margin:30px 0 14px; padding-bottom:6px; border-bottom:1px solid var(--line);}
+
+  .lede{font-size:14.5px; color:#3a3833; margin-top:18px;}
+  .lede strong{color:var(--ink);}
+
+  .item{margin-bottom:16px;}
+  .item .top{display:flex; justify-content:space-between; align-items:baseline; gap:12px;}
+  .item .co{font-weight:700; font-size:15px;}
+  .item .co .pos{color:var(--clay); font-weight:600;}
+  .item .date{color:var(--muted); font-size:13px; white-space:nowrap;}
+  .item .meta{font-size:13px; color:#55524c; margin:2px 0 7px;}
+  ul{list-style:none; padding:0;}
+  ul li{font-size:13.5px; color:#403e39; padding-left:16px; position:relative; margin-bottom:5px; line-height:1.55;}
+  ul li::before{content:"–"; position:absolute; left:0; color:var(--clay);}
+
+  .oss li::before{content:"◆"; font-size:9px; top:4px;}
+  .oss b{color:var(--ink);} .oss code{font-size:12px; color:var(--muted);}
+  a{text-decoration:none;}
+  a code{color:var(--clay); border-bottom:1px dotted #cfa593; padding-bottom:1px;}
+  a:hover code{border-bottom-style:solid;}
+
+  .mini{font-size:13px; color:#55524c; margin-bottom:6px;}
+  .mini .co{font-weight:700; color:var(--ink);}
+  .edu{font-size:14px;}
+  .edu b{font-size:15px;}
+  .badge{display:inline-block; font-size:11px; background:#e9eef5; color:#3a5a8a; padding:1px 7px;
+    border-radius:5px; margin-left:4px;}
+
+  @media print{
+    body{background:#fff; padding:0;}
+    .page{box-shadow:none; max-width:none; padding:36px 40px;}
+    h2{margin-top:22px;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1 class="serif">李宝明</h1>
+    <div class="role">AI 产品 1 号位 · Agent Harness 实践者 · 对话式 AI · 13 年</div>
+    <div class="contact">15210236694 &nbsp;|&nbsp; libaoming2@gmail.com &nbsp;|&nbsp; 北京</div>
+    <span class="target">定向投递 · DeepSeek Harness 团队 · 产品经理</span>
+  </header>
+
+  <p class="lede">13 年 AI 产品经理，从百度小度、小米小爱的端侧对话体验，做到 AIGC 智能体的产品 1 号位。深信 <strong>Model + Harness = Agent</strong>：业余独立提出并开源了一套 Agent Harness 方法论与脚手架，是 Claude Code / Codex / Cursor 的高强度日用者，对模型行为有品味、对开发者与用户体验有强感知。软件工程科班，能用 vibe coding 亲手写代码验证产品假设——<strong>YC 2026 Startup School 申请中的 Paxel 报告，用 1,981 Sessions、52.06 亿 Claude Code tokens 客观印证了这份实践强度</strong>。</p>
+
+  <h2>vibe coding 造物 · 开源 · Agent Harness 实践 · 业余一手</h2>
+  <ul class="oss">
+    <li><b>YC 2026 Startup School · Paxel 报告</b>｜YC 申请中生成的工作分析报告，基于我与 Claude Code 的 1,981 Sessions、52.06 亿 tokens、连续 53 天活跃，客观量化了我的 vibe coding 强度与人机协作风格——可作为 AI 编码实践的第三方案例 &nbsp;<a href="https://paxel.ycombinator.com/results/drwl367r/v3" target="_blank"><code>查看报告</code></a></li>
+    <li><b>harness-kit</b>｜开源 Agent Harness 方法论脚手架，沉淀 features.json + 线性切片 + fixture 先行 + 上下文隔离 Subagent 纪律的工程范式 &nbsp;<a href="https://github.com/libaoming/harness-kit" target="_blank"><code>github.com/libaoming/harness-kit</code></a></li>
+    <li><b>agent-memory-kit</b>｜运行时记忆层框架，落地「记忆四角色」的检索注入 + 闭环优化，直接命中 Agent Memory 课题 &nbsp;<a href="https://github.com/libaoming/agent-memory-kit" target="_blank"><code>github.com/libaoming/agent-memory-kit</code></a></li>
+    <li><b>Agent Design 公开课</b>｜5 模块 25 讲，向社区讲清 Prompt / Context / Harness Engineering &nbsp;<a href="https://libaoming.github.io/agent-design-course" target="_blank"><code>libaoming.github.io/agent-design-course</code></a></li>
+    <li><b>autoevolve · prompt 自动进化评测闭环</b>：fixture → agent 跑 → LLM-judge 评分 → TSV 记账 → 自动改写 prompt，分数不涨即回退；已在多个 skill / schema 上跑出可量化提升（如 baseline 8.4 → 9.3）</li>
+    <li>一手实践 Context Engineering、Multi-Agent / Subagent 编排、MCP、Skills；维护开源 marketplace（claude-plugins）</li>
+    <li>高强度日用 Claude Code / Codex / Cursor，并将其融入日常产品与投研工作流</li>
+  </ul>
+
+  <h2>工作经历</h2>
+
+  <div class="item">
+    <div class="top"><div class="co">海纳 AI &nbsp;<span class="pos">产品 1 号位</span></div><div class="date">2024.04 - 至今</div></div>
+    <div class="meta">妙招 · 招聘 AIGC 智能体产品矩阵，累计服务 100+ 企业（顺丰 / 京东 / 海信等），日面试量 4-5W 人次</div>
+    <ul>
+      <li>规划妙招产品矩阵四阶段演进路线图：AI RPO（基础岗位规模招聘）→ AI 猎头（全网捞人 / 精英组队）→ AI 招聘 → AI 工作台，覆盖 B 端招聘方 / C 端求职者 / P 端 AI 员工开发者三端</li>
+      <li><b>妙招语音 / 电话招聘</b>：搭建 Boss 代聊、AI 面试、电话邀约、语音 / 电话求职等实时语音对话 Agent，把招聘从视频覆盖到电话（端到端语音链路 + 通话质检）</li>
+      <li><b>妙招 AI 工作台</b>：让中小企业用 AI 员工替代招聘 / 销售 / 市场 / 客服真人岗位；B / C / P 三端数据云端一体（架构参考 claude.ai 与 Claude Code 的统一数据层）</li>
+      <li><b>妙招专家中心（P 端）</b>：AI 员工 Builder + 评测 + 计费分销系统，让开发者构建并上架可售卖的 AI 员工</li>
+      <li>「磐石」保障 C 端候选人低 / 弱网 / 老旧机型体验稳定性，Badcase 10 → 0；AI 中台以多智能体协作支撑维度评估 / 智能检测（读稿 / 换人 / 手部）测评闭环</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="top"><div class="co">元保数科 &nbsp;<span class="pos">AIGC 智能化负责人</span></div><div class="date">2023.01 - 2024.04</div></div>
+    <ul>
+      <li>搭建营销 / 客服 / 质检对话智能体并落地，保费提升 500%（2% → 12%）</li>
+      <li>升级触达旅程编排，设计 A/B 侧多轮实验与灰度策略，以数据严谨驱动触达通道调优</li>
+      <li>协调策略侧与端侧团队合并，提升上线效果保障与问题排查效率</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="top"><div class="co">小米 &nbsp;<span class="pos">小爱同学 smartHome</span></div><div class="date">2020.04 - 2023.01</div></div>
+    <div class="meta">大盘 DAU 渗透 12%</div>
+    <ul>
+      <li>语控满足率 90% → 95.6%（ASR 自适应、离线救回、缺省表达救回），用户重说率 3.5% → 2.1%；累计支持 76 品类、4K+ 设备语控接入</li>
+      <li>归纳并优化对话理解链路的失败模式，沉淀可复用的兜底策略</li>
+      <li>推动 120+ 款设备（投影 / 穿戴 / 家居 / 办公）小爱体验落地</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="top"><div class="co">百度 &nbsp;<span class="pos">小度 · 端侧 · 智能家居</span></div><div class="date">2017.08 - 2020.04</div></div>
+    <ul>
+      <li>负责 Raven H 体验效果，统筹语音 / DuerOS / APP 协作，于百度世界大会发布，被华尔街日报等评为 CES 2018 最佳产品</li>
+      <li>建设 DuerOS 智能家居开放平台，累计对接 200+ 品牌入驻</li>
+    </ul>
+  </div>
+
+  <div class="mini"><span class="co">Vinci（美国）</span> · 运动陪练 AI 智能体（动作指导 / 语音播报 / 恢复引导） &nbsp;<span style="color:var(--muted)">2016.05 - 2017.08</span></div>
+  <div class="mini"><span class="co">LavaRadio</span> · 0-1 到商业化体验落地（创业） &nbsp;<span style="color:var(--muted)">2013.05 - 2016.05</span></div>
+  <div class="mini"><span class="co">新浪</span> · 频道产品设计 &nbsp;<span style="color:var(--muted)">2011.06 - 2013.05</span></div>
+
+  <h2>教育</h2>
+  <div class="edu"><b>武汉大学</b> · 软件工程 本科 <span class="badge">985</span><span class="badge">211</span><span class="badge">双一流</span> &nbsp;<span style="color:var(--muted); font-size:13px;">2007.08 - 2011.05</span></div>
+
+</div>
+</body>
+</html>
